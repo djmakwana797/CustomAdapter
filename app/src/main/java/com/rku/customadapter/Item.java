@@ -5,6 +5,12 @@ public class Item {
     private String description;
     private int image;
 
+    public Item(String title, String description, int image) {
+        this.title = title;
+        this.description = description;
+        this.image = image;
+    }
+
     public String getTitle() {
         return title;
     }
